@@ -48,3 +48,21 @@
 .navbar li{
     cursor: pointer;
 }
+
+.navbar-search-icon{
+    position: relative;
+
+}
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    top: -8px;
+    right: -8px;
+    
+    background: rgb(255, 61, 61);
+    border-radius: 5px;
+    
+    
+}
