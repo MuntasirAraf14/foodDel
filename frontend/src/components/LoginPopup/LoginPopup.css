@@ -1,0 +1,25 @@
+.login-popup{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+}
+
+.login-popup-container{
+    place-self: center;
+    width: max(23vw, 330px);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #ffffff;  
+    color: #000000;
+    border-radius: 15px;
+    font-size: 14px;
+    animation: fadeIn 1s;
+    padding: 25px 30px;
+    
+    margin-top: 80px;
+
+}
