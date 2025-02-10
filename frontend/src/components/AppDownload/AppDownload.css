@@ -1,0 +1,33 @@
+.app-download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 20px;
+}
+
+.app-download p{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.app-download-platforms{
+    display: flex;
+    gap: 20px;
+}
+
+.app-download-platforms img{    
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px #000000;
+    transition: 0.3s;
+
+}
+
+.app-download-platforms img:hover{
+    transform: scale(1.05);
+}

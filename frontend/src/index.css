@@ -9,6 +9,7 @@
   margin: 0;
   box-sizing: 0;
   font-family: Outfit;
+  scrollbar-behavior: smooth;
 }
 body{
   min-height: 100vh;

@@ -69,3 +69,13 @@
     
     padding: 2px;
 }
+
+/*Responsive design*/
+
+
+@media screen and (max-width: 1050px) {
+    .explore-menu-text{
+        font-size: 20px;
+        max-width: 100%;
+    }
+}

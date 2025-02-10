@@ -11,7 +11,7 @@ const Footer = () => {
                 <p>Delicious meals, delivered to your doorstep! At [Your Brand Name], we bring you the best restaurants and freshest ingredients, ensuring a delightful dining experience anytime, anywhere. Enjoy fast delivery, exciting offers, and a variety of cuisines at your fingertips. Order now and savor the flavors of convenience!</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
-                    <img src={assets.linkedin_icon_icon} alt="" />
+                    <img src={assets.linkedin_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
                 </div>
             </div>
@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             
         </div>
-        <hr className='border'/>
+        <hr/>
         <p className='footer-copyright'>&copy; 2025 [Your Brand Name]. All rights reserved.</p>
     </div>
   )
